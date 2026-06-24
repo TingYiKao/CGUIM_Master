@@ -1,0 +1,32 @@
+# macOS metadata
+.DS_Store
+
+# Course presentation files are intentionally excluded.
+*.ppt
+*.pptx
+*.key
+
+# Raw / processed data files are too large for this GitHub upload.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
+*.parquet
+*.pkl
+*.h5
+
+# Large original data and reference folders. Selected copies live in scripts/reports/figures.
+/Assignments/
+/CSR/
+/Lecture/
+/Textbooks/
+/Midterm/
+/Spring2024_syllabus.pdf
+
+# Mind-map and local working files.
+*.xmind
+
+# Python cache files
+__pycache__/
+*.pyc
