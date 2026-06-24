@@ -1,0 +1,28 @@
+# macOS metadata
+.DS_Store
+
+# Course presentation files are intentionally excluded.
+*.ppt
+*.pptx
+*.key
+
+# Raw data and generated model files are not part of this GitHub upload.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
+*.parquet
+*.pkl
+*.h5
+*.keras
+
+# Local notebooks/cache files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Original working folders are kept local; selected copies live in scripts/reports/figures.
+/AI/
+/Final Project/
+/LLMProject/
