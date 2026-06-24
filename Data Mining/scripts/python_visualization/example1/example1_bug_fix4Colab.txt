@@ -1,0 +1,8 @@
+#Old TensorFlow version，predict_classes指令廢棄
+#Y_pred = model.predict_classes(X_test)
+
+#New TensorFlow version
+Y_pred=(model.predict(X_test)>0.5).astype(int)
+
+print(Y_pred[:,0])
+print(Y_test.astype(int))

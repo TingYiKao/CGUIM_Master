@@ -1,0 +1,18 @@
+# macOS metadata
+.DS_Store
+
+# Course presentation files are intentionally excluded from GitHub upload.
+*.ppt
+*.pptx
+*.key
+
+# SPSS viewer outputs are not GitHub-previewable.
+*.spv
+
+# Large downloaded/generated datasets and model files.
+Python/Neural Networks/example3/datasets/
+Python/Neural Networks/example3/cifar10.h5
+
+# Python cache files
+__pycache__/
+*.pyc

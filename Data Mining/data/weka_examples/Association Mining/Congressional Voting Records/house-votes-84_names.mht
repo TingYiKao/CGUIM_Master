@@ -1,0 +1,217 @@
+From: =?utf-8?Q?=E7=94=B1_Windows_Internet_Explorer_10_=E5=84=B2?=
+	=?utf-8?Q?=E5=AD=98?=
+Subject: 
+Date: Wed, 14 Aug 2013 14:20:08 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://archive.ics.uci.edu/ml/machine-learning-databases/voting-records/house-votes-84.names
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 10.00.9200.16635"></HEAD>
+<BODY><PRE>1. Title: 1984 United States Congressional Voting Records =
+Database
+
+2. Source Information:
+    (a) Source:  Congressional Quarterly Almanac, 98th Congress,=20
+                 2nd session 1984, Volume XL: Congressional Quarterly =
+Inc.=20
+                 Washington, D.C., 1985.
+    (b) Donor: Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)
+    (c) Date: 27 April 1987=20
+
+3. Past Usage
+   - Publications
+     1. Schlimmer, J. C. (1987).  Concept acquisition through=20
+        representational adjustment.  Doctoral dissertation, Department =
+of=20
+        Information and Computer Science, University of California, =
+Irvine, CA.
+        -- Results: about 90%-95% accuracy appears to be STAGGER's =
+asymptote
+     - Predicted attribute: party affiliation (2 classes)
+
+4. Relevant Information:
+      This data set includes votes for each of the U.S. House of
+      Representatives Congressmen on the 16 key votes identified by the
+      CQA.  The CQA lists nine different types of votes: voted for, =
+paired
+      for, and announced for (these three simplified to yea), voted
+      against, paired against, and announced against (these three
+      simplified to nay), voted present, voted present to avoid conflict
+      of interest, and did not vote or otherwise make a position known
+      (these three simplified to an unknown disposition).
+
+5. Number of Instances: 435 (267 democrats, 168 republicans)
+
+6. Number of Attributes: 16 + class name =3D 17 (all Boolean valued)
+
+7. Attribute Information:
+   1. Class Name: 2 (democrat, republican)
+   2. handicapped-infants: 2 (y,n)
+   3. water-project-cost-sharing: 2 (y,n)
+   4. adoption-of-the-budget-resolution: 2 (y,n)
+   5. physician-fee-freeze: 2 (y,n)
+   6. el-salvador-aid: 2 (y,n)
+   7. religious-groups-in-schools: 2 (y,n)
+   8. anti-satellite-test-ban: 2 (y,n)
+   9. aid-to-nicaraguan-contras: 2 (y,n)
+  10. mx-missile: 2 (y,n)
+  11. immigration: 2 (y,n)
+  12. synfuels-corporation-cutback: 2 (y,n)
+  13. education-spending: 2 (y,n)
+  14. superfund-right-to-sue: 2 (y,n)
+  15. crime: 2 (y,n)
+  16. duty-free-exports: 2 (y,n)
+  17. export-administration-act-south-africa: 2 (y,n)
+
+8. Missing Attribute Values: Denoted by "?"
+
+   NOTE: It is important to recognize that "?" in this database does=20
+         not mean that the value of the attribute is unknown.  It=20
+         means simply, that the value is not "yea" or "nay" (see=20
+         "Relevant Information" section above).
+
+   Attribute:  #Missing Values:
+           1:  0
+           2:  0
+           3:  12
+           4:  48
+           5:  11
+           6:  11
+           7:  15
+           8:  11
+           9:  14
+          10:  15
+          11:  22
+          12:  7
+          13:  21
+          14:  31
+          15:  25
+          16:  17
+          17:  28
+
+9. Class Distribution: (2 classes)
+   1. 45.2 percent are democrat
+   2. 54.8 percent are republican
+
+Class predictiveness and predictability: Pr(C|A=3DV) and Pr(A=3DV|C)
+ Attribute 1: (A =3D handicapped-infants)
+  0.91;  1.21  (C=3Ddemocrat; V=3Dy)
+  0.09;  0.10  (C=3Drepublican; V=3Dy)
+  0.43;  0.38  (C=3Ddemocrat; V=3Dn)
+  0.57;  0.41  (C=3Drepublican; V=3Dn)
+  0.75;  0.03  (C=3Ddemocrat; V=3D?)
+  0.25;  0.01  (C=3Drepublican; V=3D?)
+ Attribute 2: (A =3D water-project-cost-sharing)
+  0.62;  0.45  (C=3Ddemocrat; V=3Dy)
+  0.38;  0.23  (C=3Drepublican; V=3Dy)
+  0.62;  0.45  (C=3Ddemocrat; V=3Dn)
+  0.38;  0.23  (C=3Drepublican; V=3Dn)
+  0.58;  0.10  (C=3Ddemocrat; V=3D?)
+  0.42;  0.06  (C=3Drepublican; V=3D?)
+ Attribute 3: (A =3D adoption-of-the-budget-resolution)
+  0.91;  0.87  (C=3Ddemocrat; V=3Dy)
+  0.09;  0.07  (C=3Drepublican; V=3Dy)
+  0.17;  0.11  (C=3Ddemocrat; V=3Dn)
+  0.83;  0.44  (C=3Drepublican; V=3Dn)
+  0.64;  0.03  (C=3Ddemocrat; V=3D?)
+  0.36;  0.01  (C=3Drepublican; V=3D?)
+ Attribute 4: (A =3D physician-fee-freeze)
+  0.08;  0.05  (C=3Ddemocrat; V=3Dy)
+  0.92;  0.50  (C=3Drepublican; V=3Dy)
+  0.99;  0.92  (C=3Ddemocrat; V=3Dn)
+  0.01;  0.01  (C=3Drepublican; V=3Dn)
+  0.73;  0.03  (C=3Ddemocrat; V=3D?)
+  0.27;  0.01  (C=3Drepublican; V=3D?)
+ Attribute 5: (A =3D el-salvador-aid)
+  0.26;  0.21  (C=3Ddemocrat; V=3Dy)
+  0.74;  0.48  (C=3Drepublican; V=3Dy)
+  0.96;  0.75  (C=3Ddemocrat; V=3Dn)
+  0.04;  0.02  (C=3Drepublican; V=3Dn)
+  0.80;  0.04  (C=3Ddemocrat; V=3D?)
+  0.20;  0.01  (C=3Drepublican; V=3D?)
+ Attribute 6: (A =3D religious-groups-in-schools)
+  0.45;  0.46  (C=3Ddemocrat; V=3Dy)
+  0.55;  0.46  (C=3Drepublican; V=3Dy)
+  0.89;  0.51  (C=3Ddemocrat; V=3Dn)
+  0.11;  0.05  (C=3Drepublican; V=3Dn)
+  0.82;  0.03  (C=3Ddemocrat; V=3D?)
+  0.18;  0.01  (C=3Drepublican; V=3D?)
+ Attribute 7: (A =3D anti-satellite-test-ban)
+  0.84;  0.75  (C=3Ddemocrat; V=3Dy)
+  0.16;  0.12  (C=3Drepublican; V=3Dy)
+  0.32;  0.22  (C=3Ddemocrat; V=3Dn)
+  0.68;  0.38  (C=3Drepublican; V=3Dn)
+  0.57;  0.03  (C=3Ddemocrat; V=3D?)
+  0.43;  0.02  (C=3Drepublican; V=3D?)
+ Attribute 8: (A =3D aid-to-nicaraguan-contras)
+  0.90;  0.82  (C=3Ddemocrat; V=3Dy)
+  0.10;  0.07  (C=3Drepublican; V=3Dy)
+  0.25;  0.17  (C=3Ddemocrat; V=3Dn)
+  0.75;  0.41  (C=3Drepublican; V=3Dn)
+  0.27;  0.01  (C=3Ddemocrat; V=3D?)
+  0.73;  0.03  (C=3Drepublican; V=3D?)
+ Attribute 9: (A =3D mx-missile)
+  0.91;  0.70  (C=3Ddemocrat; V=3Dy)
+  0.09;  0.06  (C=3Drepublican; V=3Dy)
+  0.29;  0.22  (C=3Ddemocrat; V=3Dn)
+  0.71;  0.45  (C=3Drepublican; V=3Dn)
+  0.86;  0.07  (C=3Ddemocrat; V=3D?)
+  0.14;  0.01  (C=3Drepublican; V=3D?)
+ Attribute 10: (A =3D immigration)
+  0.57;  0.46  (C=3Ddemocrat; V=3Dy)
+  0.43;  0.28  (C=3Drepublican; V=3Dy)
+  0.66;  0.52  (C=3Ddemocrat; V=3Dn)
+  0.34;  0.23  (C=3Drepublican; V=3Dn)
+  0.57;  0.01  (C=3Ddemocrat; V=3D?)
+  0.43;  0.01  (C=3Drepublican; V=3D?)
+ Attribute 11: (A =3D synfuels-corporation-cutback)
+  0.86;  0.48  (C=3Ddemocrat; V=3Dy)
+  0.14;  0.06  (C=3Drepublican; V=3Dy)
+  0.48;  0.47  (C=3Ddemocrat; V=3Dn)
+  0.52;  0.43  (C=3Drepublican; V=3Dn)
+  0.57;  0.04  (C=3Ddemocrat; V=3D?)
+  0.43;  0.03  (C=3Drepublican; V=3D?)
+ Attribute 12: (A =3D education-spending)
+  0.21;  0.13  (C=3Ddemocrat; V=3Dy)
+  0.79;  0.42  (C=3Drepublican; V=3Dy)
+  0.91;  0.80  (C=3Ddemocrat; V=3Dn)
+  0.09;  0.06  (C=3Drepublican; V=3Dn)
+  0.58;  0.07  (C=3Ddemocrat; V=3D?)
+  0.42;  0.04  (C=3Drepublican; V=3D?)
+ Attribute 13: (A =3D superfund-right-to-sue)
+  0.35;  0.27  (C=3Ddemocrat; V=3Dy)
+  0.65;  0.42  (C=3Drepublican; V=3Dy)
+  0.89;  0.67  (C=3Ddemocrat; V=3Dn)
+  0.11;  0.07  (C=3Drepublican; V=3Dn)
+  0.60;  0.06  (C=3Ddemocrat; V=3D?)
+  0.40;  0.03  (C=3Drepublican; V=3D?)
+ Attribute 14: (A =3D crime)
+  0.36;  0.34  (C=3Ddemocrat; V=3Dy)
+  0.64;  0.49  (C=3Drepublican; V=3Dy)
+  0.98;  0.63  (C=3Ddemocrat; V=3Dn)
+  0.02;  0.01  (C=3Drepublican; V=3Dn)
+  0.59;  0.04  (C=3Ddemocrat; V=3D?)
+  0.41;  0.02  (C=3Drepublican; V=3D?)
+ Attribute 15: (A =3D duty-free-exports)
+  0.92;  0.60  (C=3Ddemocrat; V=3Dy)
+  0.08;  0.04  (C=3Drepublican; V=3Dy)
+  0.39;  0.34  (C=3Ddemocrat; V=3Dn)
+  0.61;  0.44  (C=3Drepublican; V=3Dn)
+  0.57;  0.06  (C=3Ddemocrat; V=3D?)
+  0.43;  0.04  (C=3Drepublican; V=3D?)
+ Attribute 16: (A =3D export-administration-act-south-africa)
+  0.64;  0.65  (C=3Ddemocrat; V=3Dy)
+  0.36;  0.30  (C=3Drepublican; V=3Dy)
+  0.19;  0.04  (C=3Ddemocrat; V=3Dn)
+  0.81;  0.15  (C=3Drepublican; V=3Dn)
+  0.79;  0.31  (C=3Ddemocrat; V=3D?)
+  0.21;  0.07  (C=3Drepublican; V=3D?)
+</PRE></BODY></HTML>
