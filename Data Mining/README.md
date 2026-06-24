@@ -134,7 +134,6 @@ The following files are intentionally not included in the upload commands:
 | Excluded item | Reason |
 |---|---|
 | `*.ppt`, `*.pptx` | Course presentation files are large and should not be uploaded. |
-| `.DS_Store` | macOS metadata file, not part of the project content. |
 | `*.spv` | SPSS viewer files are not directly previewable in GitHub README. |
 | `Python/Neural Networks/example3/datasets/` | Downloaded CIFAR data is very large and should not be committed. |
 | `Python/Neural Networks/example3/cifar10.h5` | Large generated model/data file. |
